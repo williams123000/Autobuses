@@ -1,0 +1,5 @@
+./autobuses-backend/node_modules/
+./autobuses-backend/.env
+
+./autobuses-frontend/node_modules/
+./autobuses-frontend/.env
