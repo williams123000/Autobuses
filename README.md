@@ -75,16 +75,14 @@ Este proyecto fue desarrollado con **Vite**, **React**, **Tailwind CSS** y **sha
 ## 📂 Estructura del proyecto
 
 ```plaintext
-project-root/
-├── frontend/            # Código del frontend
-│   ├── src/             # Archivos principales
-│   │   ├── components/  # Componentes reutilizables
-│   │   ├── pages/       # Páginas del sistema
-│   │   ├── styles/      # Estilos (Tailwind CSS)
-│   │   └── App.jsx      # Archivo principal
-│   └── public/          # Archivos estáticos
-├── backend/             # Código del backend
-└── README.md            # Documentación del proyecto
+Autobuses/
+├── autobuses-frontend/     # Código del frontend
+│   ├── src/                # Archivos principales
+│   │   ├── components/     # Componentes reutilizables
+│   │   └── App.jsx         # Archivo principal
+│   └── public/             # Archivos estáticos
+├── autobuses-backend/      # Código del backend
+└── README.md               # Documentación del proyecto
 ```
 
 ---
@@ -98,11 +96,11 @@ project-root/
 ### **Instrucciones**
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/sistema-gestion-viajes.git
+   git clone https://github.com/williams123000/Autobuses
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd sistema-gestion-viajes
+   cd autobuses-backend
    ```
 3. Instala las dependencias:
    ```bash
@@ -112,7 +110,19 @@ project-root/
    ```bash
    npm run dev
    ```
-5. Accede a la aplicación en tu navegador:
+5. Navega al directorio del proyecto:
+   ```bash
+   cd autobuses-frontend
+   ```
+6. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+7. Ejecuta el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+8. Accede a la aplicación en tu navegador:
    ```
    http://localhost:3000
    ```
