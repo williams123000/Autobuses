@@ -32,7 +32,7 @@ export const UserTable = ({ users, onDelete, onEdit }) => (
                     <TableCell>{user.email}</TableCell>
                     <TableCell>{user.phone}</TableCell>
                     <TableCell>{user.journey.idJourney}</TableCell>
-                    <TableCell className="space-x-2">
+                    <TableCell className="space-x-2 flex">
                         <Button
                             variant="secondary"
                             size="sm"

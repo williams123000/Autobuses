@@ -32,7 +32,7 @@ export const BusTable = ({ buses, onDelete, onEdit }) => (
                     <TableCell>{bus.brand}</TableCell>
                     <TableCell>{bus.model}</TableCell>
                     <TableCell>{bus.terminal.idTerminal}</TableCell>
-                    <TableCell className="space-x-2">
+                    <TableCell className="space-x-2 flex">
                         <Button
                             variant="secondary"
                             size="sm"

@@ -16,7 +16,7 @@ const App = () => {
       <Card className="max-w-6xl mx-auto">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center mb-3">
-            Sistema de Gestión de Autobuses y Terminales
+          🌎 Sistema de Gestión de Viajes en Autobús 🚍
           </CardTitle>
           <Header activeTab={activeTab} onTabChange={setActiveTab} />
         </CardHeader>

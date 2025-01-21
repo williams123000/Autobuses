@@ -129,6 +129,39 @@ Autobuses/
 
 ---
 
+## 🌐 Configuración de archivos .env
+
+### Backend
+Se debe agregar un archivo `.env` en el directorio `autobuses-backend` con la siguiente información:
+
+```env
+API_BD=mongodb://localhost:27017/autobuses
+ROUTE_T=/terminales
+ROUTE_A=/autobuses
+ROUTE_C=/conductores
+ROUTE_V=/viajes
+ROUTE_B=/boletos
+ROUTE_U=/usuarios
+PORT=3000
+```
+
+### Frontend
+Se debe agregar un archivo `.env` en el directorio `autobuses-frontend` con la siguiente información:
+
+```env
+VITE_API_URL=http://localhost:3000
+
+# Rutas de la API
+VITE_A=/autobuses
+VITE_T=/terminales
+VITE_C=/conductores
+VITE_V=/viajes
+VITE_B=/boletos
+VITE_U=/usuarios
+```
+
+---
+
 ## 🗂️ Funcionalidades pendientes
 - **Autenticación de usuarios**: Sistema de roles para administrador y clientes.
 - **Reportes**: Generación de reportes de viajes y ventas.
